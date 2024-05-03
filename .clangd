@@ -1,0 +1,16 @@
+---
+
+If:
+  PathMatch: src/.*
+
+CompileFlags:
+  Add:
+    - -xc
+    - -std=c11
+
+  Remove:
+    - -m*
+    - -f*
+    - -std=gnu*
+
+  CompilationDatabase: ./build
