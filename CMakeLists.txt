@@ -20,3 +20,4 @@ include(cmake/lib/compiler.cmake)
 # external packages
 
 # subdirectories
+add_subdirectory(src)
